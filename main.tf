@@ -25,6 +25,7 @@ locals {
     var.project,
     var.region,
     base64encode(module.service_accounts.key),
+    module.service_accounts.key,
   ]
   gcp_credentials = zipmap(var.github_secret_gcp_names, local.credentials)
 }
