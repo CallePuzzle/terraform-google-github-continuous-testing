@@ -33,7 +33,7 @@ variable "github_secret_gcp_names" {
     "PROJECT_ID",
     "REGION",
     "SA_KEY",
-    "SA_KEY_JSON",
+    "SA_EMAIL",
   ]
 }
 
